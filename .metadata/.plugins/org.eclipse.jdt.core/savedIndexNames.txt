@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+D:\UNLaM - 1er Cuatrimestre 2023\Paradigmas de Programación\Ejercicios\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2529291268.index
+1203074943.index
+1398906866.index
+3959137331.index
+1693587458.index
+3477768142.index

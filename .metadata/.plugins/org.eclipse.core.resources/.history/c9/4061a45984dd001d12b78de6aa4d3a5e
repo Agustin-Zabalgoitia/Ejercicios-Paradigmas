@@ -1,0 +1,28 @@
+package unlam.paradigmas.objetos.ej04;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CuboTest {
+
+	@Test
+	public void ObtenerLado() {
+		Cubo c = new Cubo(123);
+		assertEquals(123, c.obtenerLado(), 0);
+	}
+	
+	@Test
+	public void CambiarLado() {
+		Cubo c = new Cubo(321);
+		c.cambiarLado(753.023156489);
+		assertEquals(753.023156489, c.obtenerLado(), 0);
+	}
+	
+	@Test
+	public void ObtenerAreaCara() {
+		Cubo c = new Cubo(22);
+		assertEquals(, c.obtenerAreaCara(), 0);
+	}
+
+}

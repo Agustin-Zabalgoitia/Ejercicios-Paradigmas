@@ -1,0 +1,98 @@
+package edu.unlam.paradigmas.basicas.ej01;
+
+import java.util.Objects;
+
+public class Rango {
+	private final double extremoInferior;
+	private final double extremoSuperior;
+	private final boolean esAbiertoInferior;
+	private final boolean esAbiertoSuperior;
+
+	// Constructor
+	private Rango(double extremoInferior, double extremoSuperior, boolean esAbiertoInferior,
+			boolean esAbiertoSuperior) {
+		this.extremoInferior = extremoInferior;
+		this.extremoSuperior = extremoSuperior;
+		this.esAbiertoInferior = esAbiertoInferior;
+		this.esAbiertoSuperior = esAbiertoSuperior;
+	}
+
+	// "Constructores"
+	public static Rango CrearRangoCerrado(double extremoInferior, double extremoSuperior) {
+		return new Rango(extremoInferior, extremoSuperior, false, false);
+	}
+
+	public static Rango CrearRangoAbierto(double extremoInferior, double extremoSuperior) {
+		return new Rango(extremoInferior, extremoSuperior, true, true);
+	}
+
+	public static Rango CrearSemiAbiertoInferior(double extremoInferior, double extremoSuperior) {
+		return new Rango(extremoInferior, extremoSuperior, true, false);
+	}
+
+	public static Rango CrearSemiAbiertoSuperior(double extremoInferior, double extremoSuperior) {
+		return new Rango(extremoInferior, extremoSuperior, false, true);
+	}
+
+	// Métodos
+	public boolean estaDentroDelRango(double numero) {
+		// Abierto
+		if (this.esAbiertoInferior && this.esAbiertoSuperior)
+			return numero > this.extremoInferior && numero < this.extremoSuperior;
+
+		// Cerrado
+		if (!this.esAbiertoInferior && !this.esAbiertoSuperior)
+			return numero >= this.extremoInferior && numero <= this.extremoSuperior;
+
+		// Semi Abierto Inferior
+		if (this.esAbiertoInferior && !this.esAbiertoSuperior)
+			return numero > this.extremoInferior && numero <= this.extremoSuperior;
+
+		// Semi Abierto Superior
+		if (!this.esAbiertoInferior && this.esAbiertoSuperior)
+			return numero >= this.extremoInferior && numero < this.extremoSuperior;
+
+		return false;
+	}
+
+	public boolean estaDentroDelRango(Rango rango) {
+		
+		
+		
+		return false;
+	}
+	
+	@Override
+	public String toString() {
+		String inicio = "[";
+		String fin = "]";
+
+		if (this.esAbiertoInferior)
+			inicio = "(";
+
+		if (this.esAbiertoSuperior)
+			fin = ")";
+
+		return inicio + this.extremoInferior + ", " + this.extremoSuperior + fin;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(esAbiertoInferior, esAbiertoSuperior, extremoInferior, extremoSuperior);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Rango other = (Rango) obj;
+		return esAbiertoInferior == other.esAbiertoInferior && esAbiertoSuperior == other.esAbiertoSuperior
+				&& Double.doubleToLongBits(extremoInferior) == Double.doubleToLongBits(other.extremoInferior)
+				&& Double.doubleToLongBits(extremoSuperior) == Double.doubleToLongBits(other.extremoSuperior);
+	}
+
+}
