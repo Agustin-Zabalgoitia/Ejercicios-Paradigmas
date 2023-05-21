@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.text.CollationElementIterator"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.entradasalida.ej02.Archivo"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -15,7 +14,6 @@
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.entradasalida.ej03.Archivo"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.entradasalida.ej03.Ring"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.entradasalida.ej03.Administracion"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.entradasalida.ej03.Luchador"/>
@@ -24,6 +22,19 @@
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.basicas.ej01.Rango"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.colecciones.ej01.Registro"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.colecciones.ej01.Paquete"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.colecciones.ej02.Registro"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.colecciones.ej05.Registro"/>
 </qualifiedTypeNameHistroy>
