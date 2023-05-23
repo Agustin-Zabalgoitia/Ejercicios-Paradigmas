@@ -1,0 +1,1 @@
+hola, soy un archivo de texto que contiene texto, mi único propósito es el de servir como prueba para el ejercicio 6.
