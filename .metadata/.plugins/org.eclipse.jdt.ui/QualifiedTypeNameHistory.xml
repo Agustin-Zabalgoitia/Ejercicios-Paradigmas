@@ -37,7 +37,6 @@
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej02.ExcepcionPropia"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej03.Cociente"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej03.ExcepcionDivisorCero"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej05.Cuenta"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej05.ExcepcionOperacionesConMontosNegativos"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej05.ExcepcionCrearCuentaConSaldoNegativo"/>
@@ -45,7 +44,20 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="edu.unlam.paradigmas.excepciones.ej06.Lector"/>
+    <fullyQualifiedTypeName name="java.lang.MatchException"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Cuadrado"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Excepciones.ExcepcionLadoCeroOMenor"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Excepciones.ExcepcionColorDistinto"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.GrupoFiguras"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Excepciones.ExcepcionRadioCeroOMenor"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Excepciones.ExcepcionAlturaCeroOMenor"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Triangulo"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej01.Excepciones.ExcepcionBaseCeroOMenor"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej02.TankState"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.patrones.ej02.TankModeSiegeState"/>
+    <fullyQualifiedTypeName name="edu.unlam.paradigmas.herencia.ej01.Parte4.CuentaCorriente"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
