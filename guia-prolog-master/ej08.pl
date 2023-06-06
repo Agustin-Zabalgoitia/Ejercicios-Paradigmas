@@ -25,9 +25,14 @@ menu(Entrada, Principal, Postre, Calorias):-
 menu_sin_flan(X,Y,Z,W):-
 	menu(X,Y,Z,W), Z \== flan.
 
-%los profes dijeron que no ibamos a ver listas,
-%así que no estoy del todo seguro de qué otra forma
-%se puede resolver esto.
-min_calorias(MinCalorias):-
-    findall(Calorias, menu(_, _, _, Calorias), CaloriasList),
-    min_list(CaloriasList, MinCalorias).
+producto_menu_menor_cal(X,Y):-
+    menu(_,_,_,X),
+    menu(_,_,_,Y),
+    X<Y.
+
+menu_sin_min_cal(X):-
+    producto_menu_menor_cal(_,X).
+
+menu_min_cal(Entrada, Principal, Postre, Calorias):-
+    menu(Entrada, Principal, Postre, Calorias),
+    \+menu_sin_min_cal(Calorias).
